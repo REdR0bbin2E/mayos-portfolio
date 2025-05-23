@@ -1,0 +1,26 @@
+.navStyling {
+    background-color: rgb(63, 51, 75);
+    height: 1cm;
+    display: flex;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.navStyling a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.sectionStyling {
+    background-color: beige;
+    height: 100cm;
+}
+
+
+.hiddenButton {
+    display: none;
+
+}
