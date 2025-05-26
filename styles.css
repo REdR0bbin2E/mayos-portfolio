@@ -1,22 +1,59 @@
 .navStyling {
-    background-color: rgb(63, 51, 75);
-    height: 1cm;
+    background-color: #d5d3e3;
+    height: 1.45cm;
     display: flex;
-    justify-content: center;
+    gap: 60rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1rem;
 
-    gap: 2rem;
 }
 
 .navStyling a {
-    color: white;
-    font-weight: bold;
+    color: black;
+    font-weight: 500;
     text-decoration: none;
+    font-size: larger;
+
+
 
 }
 
-.sectionStyling {
-    background-color: beige;
-    height: 100cm;
+.navStyling a:hover {
+    color: #ffffff;
+
+}
+
+.AboutMeStyling {
+    background-color: #ffffff;
+    height: 25cm;
+}
+
+
+.ProjectsStyling {
+    background-color: #ffffff;
+    height: 20cm;
+}
+
+
+.SkillsStyling {
+    background-color: #ffffff;
+    height: 20cm;
+}
+
+.ContactMeStyling {
+    background-color: #ffffff;
+    height: 10cm;
+}
+
+
+.AllRightsReserved {
+    background-color: #123b51;
+    height: 1cm;
+    color: rgb(97, 94, 94);
+    padding-top: 1%;
 }
 
 
